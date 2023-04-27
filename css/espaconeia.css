@@ -1,26 +1,80 @@
 *{margin:0; padding:0; border:none; outline:none; font-weight: 300; box-sizing: border-box;}
-body{background-color: #ffffff;}
+body{}
 
-.backg{height: 100vh;}
-#logotopo{width: 100%; }
-#iconsocial1{margin-right:16px; color:#e5e5e5;}
 
 @media(min-width:800px){
-#description1{background-color: #95e0fe; font-size: 32px; text-align: center;}
-#description2{display: none;}
-#iconsocial1{width:20vh;}
-#divsocial1{width: 100%; display: flex;  justify-content: space-around; padding: 40px;}
-#divsocial2{display: none;}
+	body{}
+	nav a {color: #FFFFFF;}
+	#redes{width:100%; display: block;text-align: center}
+	#tratamentosweb{width:100%; padding-top: 40px; font-family:Pragati Narrow; color: }
+	#tratamentosmob{display: none}
+
+	#topoimg{width:100%; height: 15vh;}
+	#logoimg{width:25%; padding-top: 2vh;}
+	#pavaliacao{font-size:40px; font-family: Pragati Narrow; color: #404040;font-weight: bold;}
+	#tabelaproc{width:100%;}
+	td, th {padding: .9em; vertical-align: top;}
+	caption {text-align: center;}
+
+	#btnwhats{background-color: #199d0f; }
+	#btninsta{background: linear-gradient(140deg, rgba(131,58,180,1) 0%, rgba(220,46,118,1) 50%, rgba(252,176,76,1) 100%);}
+	#btnface{background-color: #3c5a9b;}
+	#btnlocal{background-color: #d34539;}
+	#btnconf1{background-color: #437388;}
+	#btnconf2{display: none;}
+
+	.btn{width: 40%; padding-top: 1.5vh; padding-bottom: 1.5vh; font-family:Inter; font-size: 20px; color: #FFFFFF; border-radius: 2vh;}
+	.btn:hover{font-weight: bold; color: #FFFFFF;}
+	.btn:visited{ color: #FFFFFF;}
+
+	#paragh{font-size: 32px; font-weight: bold;}
+	#facial{font-size: 24px;}
+	#corporal{font-size: 24px;}
+	#salao{font-size: 24px;}
+	#injetaveis{font-size: 24px;}
+	#tabelaproc{ color:#150E3D; font-family: Pragati Narrow}
+	#paragh{color:#150E3D;}
 }
 
-@media(max-width:800px){
-#description1{display: none;}
-#description2{background-color: #95e0fe; font-size: 16px; text-align: center;}
-#iconsocial1{width:10vh;}
-#divsocial1{display: none;}
-#divsocial2{width: 100%; display: flex; flex-direction: column; }
-#social001{width: 100%;  display: flex; justify-content: space-around; padding-top: 30px; padding-left: 24px; padding-right: 24px;}
-#social002{width: 100%;display: flex; justify-content: space-around; padding-top: 24px; padding-left: 24px; padding-right: 24px;}
+	.container {display: flex; overflow-x: auto; }
+	.container img { margin-right: 15px;}
+	#roll{width: 100%; display: flex; align-items: center; padding-top: 56px;}
+	#img{width: 200px;}
 
+	#actbtn{width: 100%; text-align: center; display: block; padding-top: 50px; padding-bottom: 25px;}
+
+
+@media(max-width:800px){
+	nav a {color: #FFFFFF;}
+	#redes{width:100%; display: block;text-align: center}
+	#tratamentosweb{display: none}
+	#tratamentosmob{width:100%; display: block; padding:0.9em; font-family:Pragati Narrow; padding-top: 40px; color:#150E3D;}
+
+	#paragh{text-align: center; font-weight: bold;}
+	#topoimg{width:100%;}
+	#logoimg{width:60%; padding-top: 2vh;}
+	#pavaliacao{font-size:32px; font-family: Pragati Narrow; color: #404040; font-weight: bold;}
+	#proc{width: 100%; padding-top: 24px;}
+
+	#btnwhats{background-color: #199d0f; }
+	#btninsta{background: linear-gradient(140deg, rgba(131,58,180,1) 0%, rgba(220,46,118,1) 50%, rgba(252,176,76,1) 100%);}
+	#btnface{background-color: #3c5a9b;}
+	#btnlocal{background-color: #d34539;}
+	#btnconf2{background-color: #437388;}
+	#btnconf1{display: none;}
+
+	.btn{width: 80%; padding-top: 1vh; padding-bottom: 1vh; font-family:Inter; font-size: 16px; color: #FFFFFF; border-radius: 2vh;}
+	.btn:hover{font-weight: bold; color: #FFFFFF;}
+	.btn:visited{ color: #FFFFFF;}
+
+	#paragh{font-size: 20px;}
+	#proc{font-size: 18px; padding-left: 0.5em;}
+
+	.container {display: flex; overflow-x: auto; }
+	.container img { margin-right: 5px;}
+	#roll{width: 100%; display: flex; align-items: center; padding-top: 40px;}
+	#img{width: 150px;}
+
+	#actbtn{width: 100%; text-align: center; display: block; padding-top: 36px; padding-bottom: 16px;}
 }
 
